@@ -79,6 +79,7 @@ header p {
 #videos .item {
     overflow: hidden;
 	margin-bottom:30px;
+	display:block;
 }
 
 #videos .item .caption > div {
@@ -107,7 +108,7 @@ header p {
 .video-panel-wrap {
     position: relative;
 	overflow:hidden;
-	display:block;
+	
 }
 
 
