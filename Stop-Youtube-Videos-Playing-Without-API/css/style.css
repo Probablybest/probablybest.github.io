@@ -107,6 +107,7 @@ header p {
 .video-panel-wrap {
     position: relative;
 	overflow:hidden;
+	display:block;
 }
 
 
