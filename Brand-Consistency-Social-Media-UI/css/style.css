@@ -1,0 +1,555 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600,700);
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+	font-family:Helvetica,Arial,"lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
+body {
+	background:#2f3238;
+	font-family:Helvetica,Arial,"lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
+::-moz-selection {
+    background: #cc6055;
+	color:#fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #cc6055;
+	color:#fff;
+    text-shadow: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+a {
+	text-decoration:none;
+}
+
+h1 {
+	color:#fff;
+	font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.2;
+	text-align:center;
+	margin: 0.67em 0 0;
+}
+
+h2 {
+	color:#cc6055;
+	font-size: 1.7em;
+    font-weight: 400;
+    line-height: 1.2;
+	text-align:center;
+	margin: 0.67em 0 0;
+}
+
+p {
+	font-size:14px;
+	line-height:1.38;
+}
+
+.container {
+	width:1100px;
+	margin:0 auto;
+}
+
+.container p {
+	color:#666;
+}
+
+.col-2 {
+	width:48%;
+	padding:1%;
+	float:left;
+}
+
+#main-wrapper {
+	padding:50px 20px;
+}
+
+.social-wrapper {
+	width:1100px;
+	margin:0 auto 50px;
+	background:#e9eaed;
+	padding-bottom:20px;
+}
+
+#fb-wrapper {
+	margin-top:20px;
+}
+
+#fb-main-nav {
+	width:100%;
+	height:42px;
+	background:#3a5795;
+}
+
+#fb-inner {
+	width:851px;
+	margin:0 auto;
+}
+
+#fb-cover-photo-wrapper {
+	min-width:100%;
+	height:315px;
+	display: block;
+	position: relative;
+	
+}
+
+#fb-cover-photo-wrapper:before {
+	display: block;
+	content: '';
+	position: absolute;
+	border-color: rgba(0, 0, 0, 0.25);
+	border-image: none;
+	border-style: solid;
+	border-width: 0 1px 0 1px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background: url(../images/grad-overlay.png) repeat-x left 0 bottom -1px;
+}
+
+#fb-profile-picture {
+	margin-top: -144px;
+	border:1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
+    display: block;  
+    position: absolute;
+	left: 14px;
+	width:168px;
+	height:168px;
+}
+
+#fb-profile-picture img {
+	background-color: #fff;
+    border: 4px solid #fff;
+    border-radius: 2px;
+    height: 160px;
+    width: 160px;
+}
+
+#fb-page-nav {
+	width:100%;
+	height:45px;
+	background:#fff;
+	border:1px solid #d3d6db;
+	border-radius: 0px 0px 3px 3px;
+	font-family:Helvetica,Arial,"lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 14px;
+    line-height: 28px;
+	margin-bottom:10px;
+}
+
+#fb-page-nav ul {
+	padding:0px 0px 0px 184px;
+	margin:0px;
+}
+
+#fb-page-nav ul li {
+	list-style:none;
+	padding:0 16px;
+	float:left;
+	height:30px;
+}
+
+#fb-page-nav ul li span{
+	color:#4e5665;
+	line-height:40px;
+}
+
+#fb-link-active {
+	color:#141823; 
+	font-weight:bold;
+}
+
+#fb-link-active span {
+	width:100%;
+	height:42px;
+	display:block;
+	border-bottom:3px solid #4e69a2;
+}
+
+#fb-name {
+	width: 340px;
+	height: auto;
+	text-align: left; 
+    margin: 0;
+    padding: 0;
+    position: absolute;
+	left:193px;
+	bottom: 15px;
+}
+
+#fb-name h2 {
+	font-size:24px;
+	font-weight:bold;
+	color:#fff;
+	text-align:left;
+	text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+#fb-name p {
+	text-align:left;
+	font-size:18px;
+	line-height:22px;
+	margin:0;
+	padding:0;
+	color:#fff;
+}
+
+.fb-post {
+	width:462px;
+	border-radius:3px;
+	border:1px solid #d3d6db;
+	background:#fff;
+	float:left;
+	padding:12px;
+	margin-left:365px;
+	margin-bottom:10px;
+}
+
+.fb-post p {
+	color:#141823;
+}
+
+.fb-avatar {
+	float:left;
+}
+
+.fb-post-details {
+	float:left;
+}
+
+.fb-avatar img {
+	width:40px;
+	height:40px;
+	border-radius: 2px;
+	margin-right:8px;
+}
+
+.fb-post .fb-post-name {
+	color:#3b5998;
+	font-size:12px;
+	line-height:16px;
+	font-weight:bold;
+	margin: 4px 15px 1px 0;
+	
+}
+
+.fb-post .fb-post-date {
+	color:#9197a3;
+	font-size:12px;
+	line-height:15px;
+	margin:0;
+}
+
+.fb-post-image {
+	max-width:100%;
+	margin:0 auto;
+	display:block;
+}
+
+.fb-post-link{
+	color:#3b5998;
+}
+
+/*Twitter*/
+#tw-wrapper {
+	background:#f5f8fa;
+}
+
+#tw-main-nav {
+	width:100%;
+	height:46px;
+	background:#fff;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#tw-top-wrapper{
+	position:relative;
+	width:100%;
+}
+
+#tw-cover-wrapper {
+	background:url(https://pbs.twimg.com/profile_banners/356082764/1418207738/1500x500) no-repeat;
+	min-width:100%;
+	height:320px;
+	display: block;
+	position: relative;	
+}
+
+#tw-cover-wrapper:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}
+
+#tw-cover-photo {
+	width:100%;
+	max-width:100%;
+	height:auto;
+}
+
+#tw-profile {
+    bottom: -78px;
+    display: block;
+    height: 200px;
+    left: 14px;
+    margin-top: -144px;
+    position: absolute;
+    width: 200px;
+}
+
+#tw-profile-img {
+	width:100%;
+	border: 5px solid #fff;
+    border-radius: 12px;
+    box-shadow: 0 1px 1px rgba(136, 153, 166, 0.15);
+}
+
+#tw-menu {
+	height:60px;
+	background-color: #fff;
+    border-bottom: 1px solid #e1e8ed;
+}
+
+#tw-menu ul {
+	height: 60px;
+    margin: 0 0 0 25%;
+    padding: 0;
+    width: 75%;
+}
+
+#tw-menu li {
+	float: left;
+    height: auto;
+    line-height: 19px;
+    list-style: outside none none;
+    padding: 9px 15px;
+    text-align: center;
+	font-size:18px;
+}
+
+#tw-menu span {
+	font-size:11px;
+	text-transform:uppercase;
+	color:#66757f;
+	font-weight:normal;
+}
+
+#tw-menu #tw-active-menu {
+	border-bottom:4px solid #000;
+	color:#292f33;
+	padding: 9px 15px 6px;
+}
+
+#tw-content-wrapper {
+	width:1070px;
+	margin:20px auto 0;
+}
+
+#tw-prof-details {
+	width:250px;
+	float:left;
+	margin-right:10px;
+}
+
+#tw-prof-details p {
+	color:#292f33;
+	margin:10px 0;
+}
+
+#tw-prof-details ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#tw-prof-details li {
+	font-size:14px;
+	line-height:23px;
+	padding-left:30px;
+}
+
+#tw-location {
+	background:url(../images/sprite.jpg) no-repeat 0 0;
+}
+
+#tw-website {
+	background:url(../images/sprite.jpg) no-repeat 0 -22px;
+}
+
+#tw-joined {
+	background:url(../images/sprite.jpg) no-repeat 0 -45px;
+}
+
+#tw-prof-details h1 {
+	font-size:22px;
+	line-height:28px;
+	color:#292f33;
+	text-align:left;
+	margin:15px 0 0 0;
+}
+
+#tw-prof-details h2 {
+	color:#8899a6;
+	font-size:14px;
+	line-height:1.2;
+	text-align:left;
+	margin:0;
+}
+
+#tw-tweet-wrapper {
+	width:590px;
+	float:left;
+}
+
+#tw-sec-menu {
+	border:1px solid #e1e8ed;
+	border-radius:5px 5px 0 0;
+	margin:0;
+	list-style:none;
+	padding:0;
+}
+
+#tw-sec-menu li {
+	float:left;
+	padding: 15px 15px 12px;
+	font-size:18px;
+}
+
+.tw-tweet {
+	border:1px solid #e1e8ed;
+	padding: 13px 15px 15px;
+	margin-top:-1px;
+}
+
+.tw-tweet:hover {
+	border:1px solid #ea6112;
+	position:relative;
+	z-index:9999;
+}
+
+.tw-tweet-text p {
+	font-size:16px;
+	line-height:22px;
+	color:#292f33;
+	margin:5px 0 0 0;
+}
+
+.tw-first p {
+	font-size:26px;
+	line-height:32px;
+	color:#292f33;
+}
+
+.tw-mini-profile {
+	float:left;
+	width:24px;
+	margin:0 6px 0 0;
+}
+
+.tw-mini-profile img {
+	width:24px;
+	height:24px;
+	border-radius:4px;
+}
+
+.tw-content {
+	float:left;
+	width:527px;
+}
+
+.tw-content header {
+	font-size:13px;
+	line-height:14px;
+	font-weight:normal;
+	color:#8899a6;
+}
+
+.tw-content header span {
+	font-size:14px;
+	font-weight:bold;
+	color:#292f33;
+}
+.tw-content .tw-sep {
+	line-height:14px;
+	color:#8899a6;
+	font-weight:normal;
+}
+
+.tw-color {
+	border-bottom-color:#ea6112 !important;
+	color:#ea6112;
+}
+
+.tw-actions ul {
+	list-style:none;
+	margin:12px 0 2px;
+	padding:0;
+}
+
+.tw-actions li {
+	font-size:12px;
+	font-weight:bold;
+	color:#8899a6;
+	float:left;
+	padding-left:25px;
+	padding-right:31px;
+}
+
+.tw-retweet {
+	background:url(../images/sprite.jpg) no-repeat 0 -115px;
+}
+
+.tw-fav {
+	background:url(../images/sprite.jpg) no-repeat 0 -142px;
+}
+
+.tw-actions .tw-reply {
+	background:url(../images/sprite.jpg) no-repeat 0 -92px;
+	height:18px;
+	width:19px;
+	padding-left:0px;
+}
+
+.tw-actions .tw-more {
+	background:url(../images/sprite.jpg) no-repeat 0 -158px;
+	height:18px;
+	width:22px;
+	padding-left:0px;
+}
+
+.tw-img-wrap {
+	background-color: #fff;
+    border: 1px solid #e1e8ed;
+    border-radius: 5px;
+    box-sizing: border-box;
+    max-height: 262px;
+    overflow: hidden;
+	margin-top:10px;
+}
+
+.tw-img-wrap img {
+	max-width:100%;
+}
